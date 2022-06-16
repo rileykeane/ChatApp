@@ -2,6 +2,9 @@
   "name": "chatapp",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -21,6 +24,11 @@
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-universe": "^11.0.0",
+    "prettier": "^2.7.0",
     "typescript": "~4.3.5"
   },
   "private": true
